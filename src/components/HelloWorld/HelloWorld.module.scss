@@ -1,0 +1,7 @@
+@import "src/styles/mixins.scss";
+
+.title {
+  font-size: rem(60);
+  color: var(--secondary-text);
+  text-align: center;
+}

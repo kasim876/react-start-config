@@ -1,0 +1,17 @@
+@import "src/styles/mixins.scss";
+
+:root {
+  --white: #fff;
+  --black: #000;
+  --primary-text: #1c1e21;
+  --primary-icon: #1c1e21;
+  --secondary-text: #65676b;
+  --secondary-icon: #65676b;
+  --primary-button-background: #1b74e4;
+  --hover-overlay: rgba(0 0 0 / 5%);
+  --shadow: 0 12px 28px 0 rgba(0 0 0 / 20%), 0 2px 4px 0 rgba(0 0 0 / 10%);
+  --font-family: "Ubuntu", sans-serif;
+  --header-height: #{rem(56)};
+  --content-width: #{rem(1110)};
+  --container-offset: #{rem(15)};
+}
